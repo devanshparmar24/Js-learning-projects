@@ -14,4 +14,7 @@ Project 3(digitalClock): Shows realtime clock update in digital clock format
         -toLocaleTimeString to get time from Date object
         -used setInterval() for showing update of digital clock without refreshing the page
 
-Project 4 
+Project 4(randomNumberGuess): User has to guess the random number within 10 tries
+        -event listener
+        -dom manipulation
+        -input validation and display logic
