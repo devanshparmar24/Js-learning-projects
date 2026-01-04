@@ -9,4 +9,9 @@ Project 2(bmiCalculator): Shows the bmi by accepting height and weight of the us
         -used dom manipulation
         -used event listener
 
-Project 3():
+Project 3(digitalClock): Shows realtime clock update in digital clock format
+        -used Date() object to get time
+        -toLocaleTimeString to get time from Date object
+        -used setInterval() for showing update of digital clock without refreshing the page
+
+Project 4 
