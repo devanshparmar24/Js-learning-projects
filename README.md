@@ -25,3 +25,7 @@ Project 5(changeBgColor): Changes the color of background of body at regular int
         -setInterval
         -clearInterval
         -Doesn't contain the setTimeout and clearTimeout but I have also understood it's working
+
+Project 6(keyLogging): Records the key registered and displays on the screen
+        -event listener
+        -
