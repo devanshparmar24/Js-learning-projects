@@ -18,3 +18,10 @@ Project 4(randomNumberGuess): User has to guess the random number within 10 trie
         -event listener
         -dom manipulation
         -input validation and display logic
+
+Project 5(changeBgColor): Changes the color of background of body at regular interval when we press Start button
+                          Stops the interval when stop button is pressed
+        -event listener
+        -setInterval
+        -clearInterval
+        -Doesn't contain the setTimeout and clearTimeout but I have also understood it's working
