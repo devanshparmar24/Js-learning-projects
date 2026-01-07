@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api</title>
+</head>
+<body>
+
+    <div class="hero">
+        <button id="btn">Hitesh Choudhary</button>
+        <div class="card"></div>
+        
+    </div>
+
+    <script>
+        const card = document.querySelector('.card')
+        const btn = document.querySelector('#btn')
+
+        btn.addEventListener('click',()=>{
+            const requestUrl = "https://api.github.com/users/hiteshchoudhary"
+            const request = new XMLHttpRequest()
+            
+            request.open('GET',requestUrl)                  
+            request.onreadystatechange = function (){       //checking on state change
+                //console.log(request.readyState);  //check on the state changes
+                if(request.readyState===4){
+                    const data = JSON.parse(this.responseText)
+                    card.innerHTML = `<img src=${data.avatar_url} alt="Hitesh Img"> 
+                                        <h2>followers:${data.followers}</h2>`
+                }
+            }
+            request.send()
+            })
+      
+
+    </script>
+</body>
+</html>

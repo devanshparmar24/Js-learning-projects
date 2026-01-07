@@ -28,4 +28,11 @@ Project 5(changeBgColor): Changes the color of background of body at regular int
 
 Project 6(keyLogging): Records the key registered and displays on the screen
         -event listener
-        -
+        
+Project 7(displayImgfromGithub): This project is an assignment which displays my understanding for API request
+        -worked on xmlhttprequest class
+        -used GET method on the api url
+        -get json data from api.github.com
+        -convert data in json format
+        -understood the readystate, how to take responseText when state is 4
+        -when button is clicked, displays a card where there is image fetched from avatar_url and number of followers 
